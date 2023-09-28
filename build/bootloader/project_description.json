@@ -1,0 +1,26 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/molnarm/Downloads/esp-idf-v5.1/components/bootloader/subproject",
+    "build_dir":          "/home/molnarm/esp-workspace/project/build/bootloader",
+    "config_file":        "/home/molnarm/esp-workspace/project/sdkconfig",
+    "config_defaults":    "",
+    "bootloader_elf":     "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "build_type":         "flash_app",
+    "git_revision":       "v5.1-dirty",
+    "target":             "esp32s3",
+    "rev":                "",
+    "min_rev":            "0",
+    "max_rev":            "99",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32s3-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/molnarm/Downloads/esp-idf-v5.1/components/efuse/Kconfig;/home/molnarm/Downloads/esp-idf-v5.1/components/esp_common/Kconfig;/home/molnarm/Downloads/esp-idf-v5.1/components/esp_hw_support/Kconfig;/home/molnarm/Downloads/esp-idf-v5.1/components/esp_system/Kconfig;/home/molnarm/Downloads/esp-idf-v5.1/components/freertos/Kconfig;/home/molnarm/Downloads/esp-idf-v5.1/components/hal/Kconfig;/home/molnarm/Downloads/esp-idf-v5.1/components/log/Kconfig;/home/molnarm/Downloads/esp-idf-v5.1/components/newlib/Kconfig;/home/molnarm/Downloads/esp-idf-v5.1/components/soc/Kconfig;/home/molnarm/Downloads/esp-idf-v5.1/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/molnarm/Downloads/esp-idf-v5.1/components/bootloader/Kconfig.projbuild;/home/molnarm/Downloads/esp-idf-v5.1/components/esp_app_format/Kconfig.projbuild;/home/molnarm/Downloads/esp-idf-v5.1/components/esp_rom/Kconfig.projbuild;/home/molnarm/Downloads/esp-idf-v5.1/components/esptool_py/Kconfig.projbuild;/home/molnarm/Downloads/esp-idf-v5.1/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp_app_format", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/molnarm/Downloads/esp-idf-v5.1/components/bootloader", "/home/molnarm/Downloads/esp-idf-v5.1/components/bootloader_support", "/home/molnarm/Downloads/esp-idf-v5.1/components/efuse", "/home/molnarm/Downloads/esp-idf-v5.1/components/esp_app_format", "/home/molnarm/Downloads/esp-idf-v5.1/components/esp_common", "/home/molnarm/Downloads/esp-idf-v5.1/components/esp_hw_support", "/home/molnarm/Downloads/esp-idf-v5.1/components/esp_rom", "/home/molnarm/Downloads/esp-idf-v5.1/components/esp_system", "/home/molnarm/Downloads/esp-idf-v5.1/components/esptool_py", "/home/molnarm/Downloads/esp-idf-v5.1/components/freertos", "/home/molnarm/Downloads/esp-idf-v5.1/components/hal", "/home/molnarm/Downloads/esp-idf-v5.1/components/log", "/home/molnarm/Downloads/esp-idf-v5.1/components/bootloader/subproject/main", "/home/molnarm/Downloads/esp-idf-v5.1/components/bootloader/subproject/components/micro-ecc", "/home/molnarm/Downloads/esp-idf-v5.1/components/newlib", "/home/molnarm/Downloads/esp-idf-v5.1/components/partition_table", "/home/molnarm/Downloads/esp-idf-v5.1/components/soc", "/home/molnarm/Downloads/esp-idf-v5.1/components/spi_flash", "/home/molnarm/Downloads/esp-idf-v5.1/components/xtensa", "" ],
+    "debug_prefix_map_gdbinit": ""
+}
