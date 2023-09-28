@@ -1,11 +1,32 @@
-ESP-IDF template app
+Usage:
 ====================
+Clone the repo.
 
-This is a template application to be used with [Espressif IoT Development Framework](https://github.com/espressif/esp-idf).
 
-Please check [ESP-IDF docs](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html) for getting started instructions.
 
-*Code in this repository is in the Public Domain (or CC0 licensed, at your option.)
-Unless required by applicable law or agreed to in writing, this
-software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-CONDITIONS OF ANY KIND, either express or implied.*
+Connection:
+====================
+BTS7960 -> ESP
+╔═════════╦═════════╗
+║  BTS7960║ ESP32S3 ║
+╠═════════╬═════════╣
+║   R_IS  ║    6    ║
+║   L_IS  ║    7    ║
+║   R_EN  ║    2    ║
+║   L_EN  ║    4    ║
+║  R_PWM  ║    3    ║
+║  L_PWM  ║    5    ║
+║    5V   ║   VCC   ║
+║   GND   ║   GND   ║
+╚═════════╩═════════╝
+
+
+BTS7960 -> Motor, Battery
+╔══════════════════════════╗
+║         BTS7960          ║
+╠══════════════════════════╣
+║   B+    ║   Battery +    ║
+║   B-    ║   Battery -    ║
+║   M+    ║   Motor +      ║
+║   M-    ║   Motor -      ║
+╚═════════╩════════════════╝
